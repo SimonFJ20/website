@@ -1,8 +1,0 @@
-{
-  "version": "3",
-  "redirects": {
-    "https://deno.land/x/bcrypt/mod.ts": "https://deno.land/x/bcrypt@v0.4.1/mod.ts",
-    "https://deno.land/x/oak/mod.ts": "https://deno.land/x/oak@v12.6.1/mod.ts"
-  },
-  "remote": {}
-}
