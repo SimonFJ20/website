@@ -1,12 +1,19 @@
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
+:root {
+    color-scheme: light dark;
+}
+
 body {
-    margin: 0;
+    margin: 0 auto;
+    padding: 2rem;
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+li {
+    margin-top: 1ex;
 }
 
