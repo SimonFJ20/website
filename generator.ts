@@ -82,7 +82,7 @@ function generateRSS(node: IndexNode): string {
                 <title>${
             node.title[0].toUpperCase() + node.title.slice(1)
         }</title>
-                <link>/${node.filePath}</link>
+                <link>http://simonfj20.dk/${node.filePath}</link>
                 <description>${
             node.title[0].toUpperCase() + node.title.slice(1)
         }</description>
