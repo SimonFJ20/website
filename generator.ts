@@ -1,5 +1,6 @@
 const articleTemplate = await Deno.readTextFile("templates/article.html");
 const indexTemplate = await Deno.readTextFile("templates/index.html");
+const rssTemplate = await Deno.readTextFile("templates/rss.xml");
 
 type IndexNode = {
     type: "leaf";
@@ -74,6 +75,24 @@ function generateArticleIndex(node: IndexNode): string {
     }</ul></li>`;
 }
 
+function generateRSS(node: IndexNode): string {
+    if (node.type === "leaf") {
+        return `
+            <item>
+                <title>${
+            node.title[0].toUpperCase() + node.title.slice(1)
+        }</title>
+                <link>/${node.filePath}</link>
+                <description>${
+            node.title[0].toUpperCase() + node.title.slice(1)
+        }</description>
+            </item>
+        `;
+    }
+    return node.childNodes.map((node) => generateRSS(node)).join("");
+}
+
+console.log("Generating index.html");
 const indexContent = indexTemplate.replaceAll(
     "$article_index",
     `<ul>${
@@ -81,3 +100,10 @@ const indexContent = indexTemplate.replaceAll(
     }</ul>`,
 );
 await Deno.writeTextFile("build/index.html", indexContent);
+
+console.log("Generating rss.xml");
+const rssContent = rssTemplate.replaceAll(
+    "$items",
+    indexRoot.childNodes.map((node) => generateArticleIndex(node)).join(""),
+);
+await Deno.writeTextFile("build/rss.xml", rssContent);
