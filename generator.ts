@@ -104,6 +104,6 @@ await Deno.writeTextFile("build/index.html", indexContent);
 console.log("Generating rss.xml");
 const rssContent = rssTemplate.replaceAll(
     "$items",
-    indexRoot.childNodes.map((node) => generateArticleIndex(node)).join(""),
+    indexRoot.childNodes.map((node) => generateRSS(node)).join(""),
 );
 await Deno.writeTextFile("build/rss.xml", rssContent);
