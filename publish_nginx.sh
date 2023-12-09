@@ -4,5 +4,5 @@ set -xe
 
 sh build.sh
 
-cp build /var/www/html -r
+sudo cp build /var/www/html -r
 
