@@ -64,5 +64,6 @@ When situations of periodic confrontation occurs, and confrontations seem for on
 ## Sources/Notes
 
 [^1]: As time passes between merges, changes will accumulate not only on the side of the developers own version, but the other developers will concurrently make changes to the 'upstream' version.
+
 [^2]: [Continous Delivery: Continuous Integration vs Feature Branch Workflow](https://youtu.be/v4Ijkq6Myfc?feature=shared&t=157)
 
