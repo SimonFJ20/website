@@ -32,7 +32,7 @@ async function readContent(filePath: string): Promise<string> {
 
 function ensureHtmlFileEnding(filePath: string): string {
     if (!filePath.endsWith(".html")) {
-        return filePath + ".html";
+        return filePath.replace(/\.md$/, "") + ".html";
     }
     return filePath;
 }
@@ -81,7 +81,9 @@ for (const filePath of Deno.args) {
 
 function generateArticleIndex(node: IndexNode): string {
     if (node.type === "leaf") {
-        return `<li><a href="/${node.filePath}">${node.title}</a></li>`;
+        return `<li><a href="/${
+            ensureHtmlFileEnding(node.filePath)
+        }">${node.title}</a></li>`;
     }
     const elements: string[] = [];
     for (const childNode of node.childNodes) {
@@ -99,7 +101,9 @@ function generateRSS(node: IndexNode): string {
                 <title>${
             node.title[0].toUpperCase() + node.title.slice(1)
         }</title>
-                <link>http://simonfj20.dk/${node.filePath}</link>
+                <link>http://simonfj20.dk/${
+            ensureHtmlFileEnding(node.filePath)
+        }</link>
                 <description>${
             node.title[0].toUpperCase() + node.title.slice(1)
         }</description>
