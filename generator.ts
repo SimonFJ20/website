@@ -1,3 +1,5 @@
+import * as markdown from "https://raw.githubusercontent.com/ubersl0th/markdown/master/mod.ts";
+
 const articleTemplate = await Deno.readTextFile("templates/article.html");
 const indexTemplate = await Deno.readTextFile("templates/index.html");
 const rssTemplate = await Deno.readTextFile("templates/rss.xml");
@@ -20,10 +22,25 @@ const indexRoot: IndexNode = {
     title: "index",
 };
 
+async function readContent(filePath: string): Promise<string> {
+    const text = await Deno.readTextFile(filePath);
+    if (filePath.endsWith(".md")) {
+        return markdown.Marked.parse(text).content;
+    }
+    return text;
+}
+
+function ensureHtmlFileEnding(filePath: string): string {
+    if (!filePath.endsWith(".html")) {
+        return filePath + ".html";
+    }
+    return filePath;
+}
+
 for (const filePath of Deno.args) {
     console.log(`Generating ${filePath}`);
-    const content = await Deno.readTextFile(filePath);
-    const titleMatch = content.match(/<h1>(.*?)<\/h1>/);
+    const content = await readContent(filePath);
+    const titleMatch = content.match(/<h1.*?>(.*?)<\/h1>/);
     const title = titleMatch ? titleMatch[1] : filePath;
     const file = articleTemplate
         .replaceAll("$title", title)
@@ -59,7 +76,7 @@ for (const filePath of Deno.args) {
         title,
     });
     await Deno.mkdir("build/" + folderPath, { recursive: true });
-    await Deno.writeTextFile("build/" + filePath, file);
+    await Deno.writeTextFile("build/" + ensureHtmlFileEnding(filePath), file);
 }
 
 function generateArticleIndex(node: IndexNode): string {
