@@ -3,9 +3,16 @@
 
 Simon From Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 1. January 2024
 
-In his manifesto of 'Industrial Society and Its Future'[^1] Theodore 'Unabomber' Kaczynski spends a few paragraphs outlining his theory of 'The Power Process' and 'Surrogate Activities'.
+In his manifesto of 'Industrial Society and Its Future'[^1] Theodore 'Unabomber' Kaczynski spends a few paragraphs outlining his theory of 'The Power Process' and 'Surrogate Activities'. I thought I would try and relate some of the points Kaczynski arguies for against some writings of Karl Marx, also to discover where their differences lie.
+
+
+
+[^1]: [T. Kaczynski: Industrial Society and Its Future, 1995](https://theanarchistlibrary.org/library/fc-industrial-society-and-its-future)
+
 
 > Owing to the extensive use of machinery, and to the division of labour, the work of the proletarians has lost all individual character, and, consequently, all charm for the workman. He becomes an appendage of the machine, and it is only the most simple, most monotonous, and most easily acquired knack, that is required of him.[^2]
+
+[^2]: [K. Marx, F. Engels: Manifesto of the Communist Party, 1848](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm)
 
 > Modern Industry has converted the little workshop of the patriarchal master into the great factory of the industrial capitalist. Masses of labourers, crowded into the factory, are organised like soldiers. As privates of the industrial army they are placed under the command of a perfect hierarchy of officers and sergeants. ... The more openly this despotism proclaims gain to be its end and aim, the more petty, the more hateful and the more embittering it is.[^2]
 
@@ -13,6 +20,8 @@ In his manifesto of 'Industrial Society and Its Future'[^1] Theodore 'Unabomber'
 > So much does objectification appear as loss of the object that the worker is robbed of the objects most necessary not only for his life but for his work. Indeed, labor itself becomes an object which he can obtain only with the greatest effort and with the most irregular interruptions.
 >
 > For on this premise it is clear that the more the worker spends himself, the more powerful becomes the alien world of objects which he creates over and against himself, the poorer he himself – his inner world – becomes, the less belongs to him as his own. ... The worker puts his life into the object; but now his life no longer belongs to him but to the object. Hence, the greater this activity, the more the worker lacks objects. Whatever the product of his labor is, he is not. Therefore, the greater this product, the less is he himself. The alienation of the worker in his product means not only that his labor becomes an object, an external existence, but that it exists outside him, independently, as something alien to him, and that it becomes a power on its own confronting him. It means that the life which he has conferred on the object confronts him as something hostile and alien.[^3]
+
+[^3]: [K. Marx: Economic &amp; Philosophic Manuscripts of 1844](https://www.marxists.org/archive/marx/works/1844/manuscripts/preface.htm)
 
 > The worker can create nothing without nature, without the sensuous external world. It is the material on which his labor is realized, in which it is active, from which, and by means of which it produces.
 >
@@ -39,14 +48,6 @@ In his manifesto of 'Industrial Society and Its Future'[^1] Theodore 'Unabomber'
 > In creating a world of objects by his personal activity, in his work upon inorganic nature, man proves himself a conscious species-being, i.e., as a being that treats the species as his own essential being, or that treats itself as a species-being. Admittedly animals also produce. They build themselves nests, dwellings, like the bees, beavers, ants, etc. But an animal only produces what it immediately needs for itself or its young. It produces one-sidedly, whilst man produces universally. It produces only under the dominion of immediate physical need, whilst man produces even when he is free from physical need and only truly produces in freedom therefrom. An animal produces only itself, whilst man reproduces the whole of nature. An animal’s product belongs immediately to its physical body, whilst man freely confronts his product. An animal forms only in accordance with the standard and the need of the species to which it belongs, whilst man knows how to produce in accordance with the standard of every species, and knows how to apply everywhere the inherent standard to the object. Man therefore also forms objects in accordance with the laws of beauty.
 >
 > It is just in his work upon the objective world, therefore, that man really proves himself to be a species-being. This production is his active species-life. Through this production, nature appears as his work and his reality. The object of labor is, therefore, the objectification of man’s species-life: for he duplicates himself not only, as in consciousness, intellectually, but also actively, in reality, and therefore he sees himself in a world that he has created. In tearing away from man the object of his production, therefore, estranged labor tears from him his species-life, his real objectivity as a member of the species and transforms his advantage over animals into the disadvantage that his inorganic body, nature, is taken from him.[^3]
-
-<h2>Sources/Notes</h2>
-
-[^1]: [T. Kaczynski: Industrial Society and Its Future, 1995](https://theanarchistlibrary.org/library/fc-industrial-society-and-its-future)
-
-[^2]: [K. Marx, F. Engels: Manifesto of the Communist Party, 1848](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm)
-
-[^3]: [K. Marx: Economic &amp; Philosophic Manuscripts of 1844](https://www.marxists.org/archive/marx/works/1844/manuscripts/preface.htm)
 
 
 

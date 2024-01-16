@@ -18,3 +18,12 @@ li {
     margin-top: 1ex;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid;
+    padding: 4px;
+}
+
