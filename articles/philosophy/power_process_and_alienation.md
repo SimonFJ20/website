@@ -1,13 +1,66 @@
 
-# (WIP) Power process, surrogate activities and alienation
+# (WIP) Power process and alienation
 
 Simon From Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 1. January 2024
 
-In his manifesto of 'Industrial Society and Its Future'[^1] Theodore 'Unabomber' Kaczynski spends a few paragraphs outlining his theory of 'The Power Process' and 'Surrogate Activities'. I thought I would try and relate some of the points Kaczynski arguies for against some writings of Karl Marx, also to discover where their differences lie.
-
-
+In his manifesto of 'Industrial Society and Its Future'[^1] Theodore 'Unabomber' Kaczynski spends a few paragraphs outlining his theory of 'The Power Process' and 'Surrogate Activities'. I thought I would try and relate some of the points Kaczynski argues for against some writings of Karl Marx, also to discover where their differences lie.
 
 [^1]: [T. Kaczynski: Industrial Society and Its Future, 1995](https://theanarchistlibrary.org/library/fc-industrial-society-and-its-future)
+
+Lets start with 'The Power Process'.
+
+He begins his explanation with a few assertions based in biology.
+
+> **33\.** Human beings have a need (probably based in biology) for something that we will call the power process. ...
+
+Just to call out the author here. "(probably based in biology)" is an intellectual cop-out. Either a tendency is inate, inherent and natural under any circumstances, or it's not. If it is not, it is by exclusion, a product of environment. This is especially important to consider, when you're for example, proposing a change to the circumstances. If the analysis of the material conditions of the first system, uses assertions true only in that first system, it cannot then provide any meaningful conclusion for the material conditions of another system. The assertion is therefore deliberately parenthesised to provide plausable deniability, while still legitimizing the argument. Let's assume the author asserts that 'The Power Process' is inherent to human behavior under any circumstances.
+
+He then relates the process with another assertion without basis again both legitimzing and with plausible deniabiliy.
+
+> **33\.** ... This is closely related to the need for power (which is widely recognized) but is not quite the same thing. ...
+
+'widely recognized' is an assertion that also asserts the readers full agreement. To make this assertion at least somewhat scientific, a meaningful definition of 'power' has to be provided. I will come back to this.
+
+He then defines the details of 'The Power Process'.
+
+> **33\.** ... The power process has four elements. The three most clear-cut of these we call goal, effort and attainment of goal. (Everyone needs to have goals whose attainment requires effort, and needs to succeed in attaining at least some of his goals.) The fourth element is more difficult to define and may not be necessary for everyone. We call it autonomy and will discuss it later (paragraphs 42–44).
+
+Here he describes how 'The Power Process' consists of goals and autonomy.
+
+He then gives an example of the analysis of 'The Power Process' applied to a persons life.
+
+> **34\.** Consider the hypothetical case of a man who can have anything he wants just by wishing for it. ...
+
+Already we should be cautious. Instead of applying the framework of analysis on everday people, he chooses to apply it on "a man who can have anything he wants just by wishing for it." If we are to extract any meaningful value from this analysis, he has to prove that analysis also applies likewise to a normal person. And by 'normal person' I mean a member of the working class (proletariet), as the majority of people in industrialized nations are.
+
+> **34\.** ... Such a man has power, but he will develop serious psychological problems. At first he will have a lot of fun, but by and by he will become acutely bored and demoralized. Eventually he may become clinically depressed. History shows that leisured aristocracies tend to become decadent. This is not true of fighting aristocracies that have to struggle to maintain their power. But leisured, secure aristocracies that have no need to exert themselves usually become bored, hedonistic and demoralized, even though they have power. This shows that power is not enough. One must have goals toward which to exercise one’s power.
+
+These are just assertions, and example of this occuring in history wouldn't hurt.
+
+Then he elaborates on goals.
+
+> **35\.** Everyone has goals; if nothing else, to obtain the physical necessities of life: food, water and whatever clothing and shelter are made necessary by the climate. But the leisured aristocrat obtains these things without effort. Hence his boredom and demoralization.
+>
+> **36\.** Non-attainment of important goals results in death if the goals are physical necessities, and in frustration if non-attainment of the goals is compatible with survival. Consistent failure to attain goals throughout life results in defeatism, low self-esteem or depression.
+>
+> **37\.** Thus, in order to avoid serious psychological problems, a human being needs goals whose attainment requires effort, and he must have a reasonable rate of success in attaining his goals.
+
+He explains the rudementary concept of goals and the human relation to them. Though he includes "physical necessities" automatically, meaning all physical necessities of a person are goals. You could make a darwinian argument for this. You could also make an argument against based in stoicism. He also claims that consisten failure leads to low self-esteem. You could argue against this, on the basis that self-esteem is a product of reflection of the judgement of the environment; other people; society, not just a feeling coming from within.
+
+He explains that these goals are tasks with substance that one seeks to accomplish. This could very well be described by another word: work. Work consists of something for one self to do with substance, which demands effort. Humans need to work to stay sane, is then what he is saying. Keep in mind work and labor is not the same thing.
+
+> The English language has the advantage of possessing different words for the two aspects of labour here considered. The labour which creates use value, and counts qualitatively, is Work, as distinguished from Labour, that which creates Value and counts quantitatively, is Labour as distinguished from Work.[^4]
+
+[^4]: [K. Marx: Das Kapital volume 1 Ch. 1 Commodities, footnote 16. by F. Engels](https://www.marxists.org/archive/marx/works/download/pdf/Capital-Volume-I.pdf)
+
+He also asserts that aristocracies "that have to struggle to maintain their power" don't experience the same demoralization. By extension, you could argue, he says that fight for survival is, in this case, what keeps away demoralization and boredom. But his argumentation is misleading. He states, the *man* can "have anything they want", but if you have to struggle, you can't just get anything you want "just by wishing for it." With this, we could very reasonably argue that a **struggle for what you want** is what keeps away demoralization and boredom. But without this realization, we're tempted to think the **struggle for what you need to survive** is what keeps it away. This becomes important when he now explains what he calls *Surrogate Activities*.
+
+> 38. But not every leisured aristocrat becomes bored and demoralized. For example, the emperor Hirohito, instead of sinking into decadent hedonism, devoted himself to marine biology, a field in which he became distinguished. When people do not have to exert themselves to satisfy their physical needs they often set up artificial goals for themselves. In many cases they then pursue these goals with the same energy and emotional involvement that they otherwise would have put into the search for physical necessities. (...)
+
+> 39. We use the term “surrogate activity” to designate an activity that is directed toward an artificial goal that people set up for themselves merely in order to have some goal to work toward, or, let us say, merely for the sake of the “fulfillment” that they get from pursuing the goal. ...
+
+*Surrogate activities* is work one does, which is not strictly necessary for ones own survival.
+
 
 
 > Owing to the extensive use of machinery, and to the division of labour, the work of the proletarians has lost all individual character, and, consequently, all charm for the workman. He becomes an appendage of the machine, and it is only the most simple, most monotonous, and most easily acquired knack, that is required of him.[^2]
@@ -15,7 +68,6 @@ In his manifesto of 'Industrial Society and Its Future'[^1] Theodore 'Unabomber'
 [^2]: [K. Marx, F. Engels: Manifesto of the Communist Party, 1848](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm)
 
 > Modern Industry has converted the little workshop of the patriarchal master into the great factory of the industrial capitalist. Masses of labourers, crowded into the factory, are organised like soldiers. As privates of the industrial army they are placed under the command of a perfect hierarchy of officers and sergeants. ... The more openly this despotism proclaims gain to be its end and aim, the more petty, the more hateful and the more embittering it is.[^2]
-
 
 > So much does objectification appear as loss of the object that the worker is robbed of the objects most necessary not only for his life but for his work. Indeed, labor itself becomes an object which he can obtain only with the greatest effort and with the most irregular interruptions.
 >
