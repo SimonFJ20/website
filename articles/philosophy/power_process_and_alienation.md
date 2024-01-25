@@ -15,7 +15,7 @@ He begins his explanation with a few assertions based in biology.
 
 Just to call out the author here. "(probably based in biology)" is an intellectual cop-out. Either a tendency is inate, inherent and natural under any circumstances, or it's not. If it is not, it is by exclusion, a product of environment. This is especially important to consider, when you're for example, proposing a change to the circumstances. If the analysis of the material conditions of the first system, uses assertions true only in that first system, it cannot then provide any meaningful conclusion for the material conditions of another system. The assertion is therefore deliberately parenthesised to provide plausable deniability, while still legitimizing the argument. Let's assume the author asserts that 'The Power Process' is inherent to human behavior under any circumstances.
 
-He then relates the process with another assertion without basis again both legitimzing and with plausible deniabiliy.
+He then relates the process with another assertion without basis again both legitimizing and with plausible deniabiliy.
 
 > **33\.** ... This is closely related to the need for power (which is widely recognized) but is not quite the same thing. ...
 
@@ -31,11 +31,11 @@ He then gives an example of the analysis of 'The Power Process' applied to a per
 
 > **34\.** Consider the hypothetical case of a man who can have anything he wants just by wishing for it. ...
 
-Already we should be cautious. Instead of applying the framework of analysis on everday people, he chooses to apply it on "a man who can have anything he wants just by wishing for it." If we are to extract any meaningful value from this analysis, he has to prove that analysis also applies likewise to a normal person. And by 'normal person' I mean a member of the working class (proletariet), as the majority of people in industrialized nations are.
+Already we should be cautious. Instead of applying the framework of analysis on everday people, he chooses to apply it on "a man who can have anything he wants just by wishing for it." If we are to extract any meaningful value from this analysis, he has to prove that analysis also applies likewise to a normal person. And by 'normal person' I mean a member of the working class (proletariat), as the majority of people in industrialized nations are.
 
 > **34\.** ... Such a man has power, but he will develop serious psychological problems. At first he will have a lot of fun, but by and by he will become acutely bored and demoralized. Eventually he may become clinically depressed. History shows that leisured aristocracies tend to become decadent. This is not true of fighting aristocracies that have to struggle to maintain their power. But leisured, secure aristocracies that have no need to exert themselves usually become bored, hedonistic and demoralized, even though they have power. This shows that power is not enough. One must have goals toward which to exercise one’s power.
 
-These are just assertions, and example of this occuring in history wouldn't hurt.
+These are just assertions, and an example of this occuring in history wouldn't hurt.
 
 Then he elaborates on goals.
 
@@ -45,13 +45,13 @@ Then he elaborates on goals.
 >
 > **37\.** Thus, in order to avoid serious psychological problems, a human being needs goals whose attainment requires effort, and he must have a reasonable rate of success in attaining his goals.
 
-He explains the rudementary concept of goals and the human relation to them. Though he includes "physical necessities" automatically, meaning all physical necessities of a person are goals. You could make a darwinian argument for this. You could also make an argument against based in stoicism. He also claims that consisten failure leads to low self-esteem. You could argue against this, on the basis that self-esteem is a product of reflection of the judgement of the environment; other people; society, not just a feeling coming from within.
+He explains the rudementary concept of goals and the human relation to them. Though he includes "physical necessities" automatically, meaning all physical necessities of a person are goals. You could make a darwinian argument for this. You could also make an argument against based in stoicism. He also claims that consistent failure leads to low self-esteem. You could argue against this, on the basis that self-esteem is a product of reflection of the judgement of the environment; other people; society, not just a feeling coming from within.
 
 He explains that these goals are tasks with substance that one seeks to accomplish. This could very well be described by another word: work. Work consists of something for one self to do with substance, which demands effort. Humans need to work to stay sane, is then what he is saying. Keep in mind work and labor is not the same thing.
 
 > The English language has the advantage of possessing different words for the two aspects of labour here considered. The labour which creates use value, and counts qualitatively, is Work, as distinguished from Labour, that which creates Value and counts quantitatively, is Labour as distinguished from Work.[^4]
 
-[^4]: [K. Marx: Das Kapital volume 1 Ch. 1 Commodities, footnote 16. by F. Engels](https://www.marxists.org/archive/marx/works/download/pdf/Capital-Volume-I.pdf)
+[^4]: [K. Marx: Das Kapital volume 1 Ch. 1 Commodities, footnote 16. by F. Engels](https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm#16)
 
 He also asserts that aristocracies "that have to struggle to maintain their power" don't experience the same demoralization. By extension, you could argue, he says that fight for survival is, in this case, what keeps away demoralization and boredom. But his argumentation is misleading. He states, the *man* can "have anything they want", but if you have to struggle, you can't just get anything you want "just by wishing for it." With this, we could very reasonably argue that a **struggle for what you want** is what keeps away demoralization and boredom. But without this realization, we're tempted to think the **struggle for what you need to survive** is what keeps it away. This becomes important when he now explains what he calls *Surrogate Activities*.
 
