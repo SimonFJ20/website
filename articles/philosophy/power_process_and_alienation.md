@@ -31,7 +31,7 @@ He then gives an example of the analysis of 'The Power Process' applied to a per
 
 > **34\.** Consider the hypothetical case of a man who can have anything he wants just by wishing for it. ...
 
-Already we should be cautious. Instead of applying the framework of analysis on everday people, he chooses to apply it on "a man who can have anything he wants just by wishing for it." If we are to extract any meaningful value from this analysis, he has to prove that analysis also applies likewise to a normal person. And by 'normal person' I mean a member of the working class (proletariat), as the majority of people in industrialized nations are.
+Already we should be cautious. Instead of applying the framework of analysis on everday people, he chooses to apply it on "a man who can have anything he wants just by wishing for it." If we are to extract any meaningful value from this analysis, he has to prove that the analysis also applies likewise to a normal person. And by 'normal person' I mean a member of the working class (proletariat), as the majority of people in industrialized nations are.
 
 > **34\.** ... Such a man has power, but he will develop serious psychological problems. At first he will have a lot of fun, but by and by he will become acutely bored and demoralized. Eventually he may become clinically depressed. History shows that leisured aristocracies tend to become decadent. This is not true of fighting aristocracies that have to struggle to maintain their power. But leisured, secure aristocracies that have no need to exert themselves usually become bored, hedonistic and demoralized, even though they have power. This shows that power is not enough. One must have goals toward which to exercise one’s power.
 
@@ -45,7 +45,7 @@ Then he elaborates on goals.
 >
 > **37\.** Thus, in order to avoid serious psychological problems, a human being needs goals whose attainment requires effort, and he must have a reasonable rate of success in attaining his goals.
 
-He explains the rudementary concept of goals and the human relation to them. Though he includes "physical necessities" automatically, meaning all physical necessities of a person are goals. You could make a darwinian argument for this. You could also make an argument against based in stoicism. He also claims that consistent failure leads to low self-esteem. You could argue against this, on the basis that self-esteem is a product of reflection of the judgement of the environment; other people; society, not just a feeling coming from within.
+He explains the rudementary concept of goals and the human relation to them. Though he includes "physical necessities" automatically, meaning all physical necessities of a person are goals. You could make a darwinian argument for this. You could also make an argument against, for example an argument based in stoicism on resisting natural temptations such as eating. He also claims that consistent failure leads to low self-esteem. You could argue against this, on the basis that self-esteem is a product of reflection of the judgement of the environment; other people; society, not just a feeling coming from within.
 
 He explains that these goals are tasks with substance that one seeks to accomplish. This could very well be described by another word: work. Work consists of something for one self to do with substance, which demands effort. Humans need to work to stay sane, is then what he is saying. Keep in mind work and labor is not the same thing.
 
@@ -55,17 +55,79 @@ He explains that these goals are tasks with substance that one seeks to accompli
 
 He also asserts that aristocracies "that have to struggle to maintain their power" don't experience the same demoralization. By extension, you could argue, he says that fight for survival is, in this case, what keeps away demoralization and boredom. But his argumentation is misleading. He states, the *man* can "have anything they want", but if you have to struggle, you can't just get anything you want "just by wishing for it." With this, we could very reasonably argue that a **struggle for what you want** is what keeps away demoralization and boredom. But without this realization, we're tempted to think the **struggle for what you need to survive** is what keeps it away. This becomes important when he now explains what he calls *Surrogate Activities*.
 
-> 38. But not every leisured aristocrat becomes bored and demoralized. For example, the emperor Hirohito, instead of sinking into decadent hedonism, devoted himself to marine biology, a field in which he became distinguished. When people do not have to exert themselves to satisfy their physical needs they often set up artificial goals for themselves. In many cases they then pursue these goals with the same energy and emotional involvement that they otherwise would have put into the search for physical necessities. (...)
+> **38\.** But not every leisured aristocrat becomes bored and demoralized. For example, the emperor Hirohito, instead of sinking into decadent hedonism, devoted himself to marine biology, a field in which he became distinguished. When people do not have to exert themselves to satisfy their physical needs they often set up artificial goals for themselves. In many cases they then pursue these goals with the same energy and emotional involvement that they otherwise would have put into the search for physical necessities. (...)
 
-> 39. We use the term “surrogate activity” to designate an activity that is directed toward an artificial goal that people set up for themselves merely in order to have some goal to work toward, or, let us say, merely for the sake of the “fulfillment” that they get from pursuing the goal. ...
+> **39\.** We use the term “surrogate activity” to designate an activity that is directed toward an artificial goal that people set up for themselves merely in order to have some goal to work toward, or, let us say, merely for the sake of the “fulfillment” that they get from pursuing the goal. ...
 
 *Surrogate activities* is work one does, which is not strictly necessary for ones own survival.
 
+> **40\.** In modern industrial society only minimal effort is necessary to satisfy one’s physical needs. It is enough to go through a training program to acquire some petty technical skill, then come to work on time and exert the very modest effort needed to hold a job. The only requirements are a moderate amount of intelligence and, most of all, simple OBEDIENCE. If one has those, society takes care of one from cradle to grave.
 
+This statement very much reflects the time at which Kaczynski lived as a part of American society and when he decided to no longer do so. At that time, a single full-time job was enough to maintain a family, house and a car for a large part of the American population. With rising inflation, rising rent, rising prices and stagnent wages, living has become much more expensive. Competition between workers generally has also increased.
+
+> Multiple jobholding has become more prevalent in the U.S. economy over the past two decades.
+> 
+> Over the entire 22-year time period from the second quarter of 1996 to the first quarter of 2018, the multiple jobholding rate has averaged 7.2% of all employed individuals, according to the LEHD data.[^5]
+
+[^6]: [US Consensus Bereau: Using Administrative Data, Census Bureau Can Now Track the Rise in Multiple Jobholders](https://www.census.gov/library/stories/2021/02/new-way-to-measure-how-many-americans-work-more-than-one-job.html)
+
+While his argumentatiton of course holds true compared to that of a person living in poverty in the 15 hundreds, his retoric make it seems as though living of a job in modern society is 'easy' and barely requires effort for vast majority of the population. This is untrue. Many citizins of the US for example, need to work to jobs to feed themself and their kids and to stay housed. We could very well argue that being housed is a physical need, so on that basis, we can refute the claim that in "modern industrial society only minimal effort is necessary to satisfy one’s physical needs."
+
+He acknowledges this.
+
+> **40\.** ... (Yes, there is an underclass that cannot take the physical necessities for granted, but we are speaking here of mainstream society.) ...
+
+But uses retoric to try and pursuade the reader to believe that this only applies to "an underclass," which the reader will pressume they're not apart of. Therefore he can continue his argumentation with the reader having a double perception of the majority of society. The reader will then analyse society at large as though everyone in it, is living the exact priviledged life Kaczynski describes, while disregarding the "underclass that cannot take the physical necessities for granted."
+
+This kind of argumentation is a commonly used bourgeois strategy of dividing the majority of people to fight against one another. Something similar is address by Marx in the communist manifesto.
+
+> In countries where modern civilisation has become fully developed, a new class of petty bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society.[^2]
+
+Here, a category of the working-class at large, a sub-class of the proleratiat if you will, is describes; the petty bourgeoisie. These are small business owners, and generally what we in modern bourgeois notions refer to as 'middle-class'. The middle-class groups are often more wealthy than their proletarian counterparts. Opportunists and populists have throughout history attempted to divided the proleratiat and the petty bourgeoisie. And even further, they've attempted decieving the proletarian to think they're petty bourgeois. This is a very powerful political tool, because any disadvantagous part of the society the a petty bourgeois or deceived proletarian experiences, they'll just cast off as thought it is not a disadvantages to them, but instead a disadvantages to the 'lower classes'. Using this tool, you can convince a large amount of the population of a concept, while consentfully disregarding poor material conditions.
+
+Kaczynski uses this excellently. He speaks to the reader as though the reader themself is 'better off' than the 'worse off'. This way, he can exclude any analyses of the population in general, and focus on the subject; the reader.
+
+Let's continue on surrogate activities for 'normal' modern people.
+
+> **40\.** ... Thus it is not surprising that modern society is full of surrogate activities. These include scientific work, athletic achievement, humanitarian work, artistic and literary creation, climbing the corporate ladder, acquisition of money and material goods far beyond the point at which they cease to give any additional physical satisfaction, and social activism when it addresses issues that are not important for the activist personally, as in the case of white activists who work for the rights of nonwhite minorities. ...
+
+He lists a few activities which are not essential for physical existence.
+
+> **40\.** ... These are not always PURE surrogate activities, since for many people they may be motivated in part by needs other than the need to have some goal to pursue. Scientific work may be motivated in part by a drive for prestige, artistic creation by a need to express feelings, militant social activism by hostility. ...
+
+Certain activities may also be motivated by the same necessity of essentials for survival. Take "climbing the corporate ladder" for example. While it might not be strictly necessary, getting a promotion might make your life more stable. You might for example be able to afford a better health insurance plan, safer car, etc. While these are not strictly essentials for survival compared to the previous situation, they still provide security of the essentials of survival.
+
+Imagine you're out camping. You catch a rabbit you'd want to eat later. But storing the dead rabbit beside your tent out in the open, might result in a fox or a bear coming and taking your food. To combat this, you'd probably be tempted arrange some kind of protection for the food. This activity of protecting the food, is this a surrogate activity? In this example it would obviously not be, as it is a means of securing essentials for survival. But compare this to "climbing the corporate ladder" or "acquisition of money and material goods far beyond the point at which they cease to give any additional physical satisfaction." Are these surrogate activities, if they help secure essentials for survival further, even though they are already quite secure?
+
+> **40\.** ... But for most people who pursue them, these activities are in large part surrogate activities. For example, the majority of scientists will probably agree that the “fulfillment” they get from their work is more important than the money and prestige they earn.
+
+"probably agree" here is again an unbacked assertion. You could also argue that the "majority of scientists will probably agree that" keeping the job they have, is more important than pursuing some kind of “fulfillment” outside the job.
+
+Then he goes on to attack surrogate activities as worthy ways to spend ones life.
+
+> **41\.** For many if not most people, surrogate activities are less satistying than the pursuit of real goals (that is, goals that people would want to attain even if their need for the power process were already fulfilled). ...
+
+Appeal to nature.
+
+> **41\.** ... One indication of this is the fact that, in many or most cases, people who are deeply involved in surrogate activities are never satisfied, never at rest. Thus the money-maker constantly strives for more and more wealth. The scientist no sooner solves one problem than he moves on to the next. The long-distance runner drives himself to run always farther and faster. ...
+
+Imagine you live in a forest, and for the sake of argument, your primary source of food is that of apples from apple trees. The trees you've planted yourself, and the food they produce is just enough for you to survive. Are you at rest with the amount of apple trees planted? What if one of the trees die? Then you haven't got enough food. Are you not tempted to plant a few more trees just for insurance and food security. Is this not a restlessness? Is this not an intrinsic darwinian trait of survival? Is this not human nature?
+
+> **41\.** ... Many people who pursue surrogate activities will say that they get far more fulfillment from these activities than they do from the “mundane” business of satisfying their biological needs, but that is because in our society the effort required to satisfy the biological needs has been reduced to triviality. ...
+
+The criticism present is not so much criticism of surrogate activities as it is the "“mundane” business of satisfying their biological needs". Kaczynski claims "that is because in our society the effort required to satisfy the biological needs has been reduced to triviality." Because the "mundane" part of our lives have become boring; "reduces to triviality" we seek far more enjoyment and satisfaction in the supposed "surrogate activities." In the next part he focuses a bit more on the cause.
+
+> **41\.** ... More importantly, in our society people do not satis[f]y their biological needs AUTONOMOUSLY but by functioning as parts of an immense social machine. In contrast, people generally have a great deal of autonomy in pursuing their surrogate activities.
+
+So because people don't work for themselves but instead "as parts of an immense social machine," work becomes boring, uninteresting and unfulfilling. What Kaczynski is criticizing here, is what Karl Marx criticized a small 150 years prior.
 
 > Owing to the extensive use of machinery, and to the division of labour, the work of the proletarians has lost all individual character, and, consequently, all charm for the workman. He becomes an appendage of the machine, and it is only the most simple, most monotonous, and most easily acquired knack, that is required of him.[^2]
 
 [^2]: [K. Marx, F. Engels: Manifesto of the Communist Party, 1848](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm)
+
+Marx looked at average workers in the middle of the 19th century. The industrial revolution was raging at large, and a large part of the european peasantry had become city dwellers working for example in big factories as part of the proletariat class.
+
+Marx wrote how "the division of labour" made the "mundane" aspect of workers lives boring, uninteresting, unfulfilling. In the same way Kaczynski describes "effort required to satisfy the biological needs" as having been "reduced to triviality", Marx describes how the worker of an indutrial factory "becomes and appandage of the machine" and make them lose "all individual character".
 
 > Modern Industry has converted the little workshop of the patriarchal master into the great factory of the industrial capitalist. Masses of labourers, crowded into the factory, are organised like soldiers. As privates of the industrial army they are placed under the command of a perfect hierarchy of officers and sergeants. ... The more openly this despotism proclaims gain to be its end and aim, the more petty, the more hateful and the more embittering it is.[^2]
 
