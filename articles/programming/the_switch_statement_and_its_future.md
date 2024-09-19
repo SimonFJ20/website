@@ -1,5 +1,7 @@
 
-# Switch-statements and their future
+S. F. Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 27. September 2023
+
+# The switch-statement and its future
 
 The switch-statement and it's consequences have been a disaster for the discipline of programming.
 

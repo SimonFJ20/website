@@ -3,7 +3,7 @@
 
 **A small programming language, based on arrays, inspired by Typescript's type system.**
 
-*Simon F. Jakobsen*
+S. F. Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 12. September 2023
 
 I'd like to show an idea I got for a programming language.
 
@@ -884,7 +884,7 @@ which have massive syntaxes, incredible difficult to reason about semantic, and 
 
 ## Sources
 
-- [Jakobsen, S. F. *Improve Typescript type recursion depth*](#appendix-1---improve-typescripts-type-recursion-limit)
+- [Jakobsen, S. F. *Improve Typescript type recursion depth*](#appendix-1-improve-typescripts-type-recursion-limit)
 - [Jakobsen, S. F. *A PEMDAS Compliant Math Parser implemented entirely in Typescript's Type System*](https://gist.github.com/SimonFJ20/1bbfd17c323acb78ad46fef2af12d968)
 - [Clarkson, M. R. *OCaml Programming: Correct + Efficient + Beautiful*](https://cs3110.github.io/textbook/chapters/basics/printing.html#printing)
 - [Hudak, P., Peterson, J., Fasel, J. *A Gentle Introduction to Haskell* Version 98](https://www.haskell.org/tutorial/io.html)

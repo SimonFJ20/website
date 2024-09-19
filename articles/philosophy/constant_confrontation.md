@@ -1,7 +1,7 @@
 
 # Constant confrontation
 
-Simon From Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 28. December 2023
+S. F. Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 28. December 2023
 
 ## Branching in software development
 
