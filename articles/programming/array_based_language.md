@@ -3,7 +3,7 @@
 
 **A small programming language, based on arrays, inspired by Typescript's type system.**
 
-S. F. Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 12. September 2023
+*S. F. Jakobsen &lt;simonfromjakobsen@gmail.com&gt;, 12. September 2023*
 
 I'd like to show an idea I got for a programming language.
 
