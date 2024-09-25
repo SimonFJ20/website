@@ -42,8 +42,15 @@ for (const filePath of Deno.args) {
     const content = await readContent(filePath);
     const titleMatch = content.match(/<h1.*?>(.*?)<\/h1>/);
     const title = titleMatch ? titleMatch[1] : filePath;
+    const descriptionMatch = content.match(
+        /<p.*?>(?:<strong>)?(.*?)(:?<\/strong>)?<\/p>/,
+    );
+    const description = descriptionMatch
+        ? descriptionMatch[1]
+        : content.slice(100);
     const file = articleTemplate
         .replaceAll("$title", title)
+        .replaceAll("$description", description)
         .replaceAll("$main", content);
     const folderPath = filePath.slice(0, filePath.lastIndexOf("/"));
     const indexNode = folderPath
