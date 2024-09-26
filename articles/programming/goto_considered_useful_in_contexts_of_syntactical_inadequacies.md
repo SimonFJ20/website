@@ -159,9 +159,21 @@ try_read_sensor_value:
 
 The benefits should be clear. The drawbacks are only the following. 1) This methodology requires of the programmer a certain amount of discipline, as to implement the contruct correctly. 2) Expanding from the previous, the use of the goto statement might instill a certain mindset in future programmers, that this one allow use of goto implies any use of goto is allowed.
 
-*But is the Go To Statement not Considered Harmful?* i hear you ask.
+*But is the Go To Statement not Considered Harmful?
 
+This is in reference to the famous article by Edsgar Dijstra. In the article, the author writes the following.
 
+> The **go to** statement as it stands is just too primitive; it is too much an invitation to make a mess of one's program. One can regad and appreciate the clauses mentioned as exhaustive in the sense that they will satisfy all needs, but whatever clauses are suggested (e.g. abort clauses) they should satisfy the requirement that a programmer independent coordinate system can be maintained to describe the process in a helpful and manageable way.[6]
+
+We shall find the crux of the matter in the above quote. The author writes that "[o]ne can regad and appreciate the clauses mentioned as exhaustive in the sense that they will satisfy all needs." This is true in the sense, that we can describe the program perfectly well computationally, but readability and comprehensibility might lack behind. For the program we're working with, "the intention of the code reads more clearly with guard clauses," because "[t]hese kinds of conditionals have different intentions—and these intentions should come through in the code."[7] Because "the clauses mentioned" will not then "satisfy all needs", we ought to expand our palate.
+
+The second part of the quote above, is that "whatever clauses are suggested [...] should satisfy the requirement [...] to describe the process in a helpful and manageable way." The case is strong for this to be true using the Goto in the manner shown above. By refacturing to use guard clauses, we make the code more manageable and make the code describe the conceptual program flow more helpful.
+
+*When, then, am I allowed to use goto?*
+
+Introduction of goto statements in a principled, disciplined and rational manner may be an overall improvement in the code. We can use the goto statement to address inadequacies, when the language at hand doesn't support certain language features. The method for doing so, is important. By emulating syntax suger from higher level programming languages, such as Rust, that conforms to structured control flow, we maintain structured control flow.
+
+> For a number of years I have been familiar with the observation that the quality of programmers is a decreasing function of the density of **go to** statements in the programs they produce. More recently I discovered why the use of the **go to** statement has such disastrous effects, and I became convinced that the **go to** statement should be abolished from all "higher level" programming languages [...].[8]
 
 ## Notes
 
@@ -170,4 +182,7 @@ The benefits should be clear. The drawbacks are only the following. 1) This meth
 3. Rust By Example: *Nesting and labels*, https://doc.rust-lang.org/rust-by-example/flow_control/loop/nested.html, visited 25-09-2024
 4. MDN Web Docs: *IIFE*, https://developer.mozilla.org/en-US/docs/Glossary/IIFE, visited 25-09-2024
 5. Erik Rigtorp: *Uses of immediately invoked function expressions (IIFE) in C++*, https://rigtorp.se/iife/, visited 25-09-2024
+6. Edsgar Dijkstra: *Go To Statement Considered Harmful*, https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf, visited 25-09-2024
+7. *Refactoring: Improving the Design of Existing Code*, pp. 267
+8. *Go To Statement Considered Harmful*
 
