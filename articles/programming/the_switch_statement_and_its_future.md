@@ -19,7 +19,7 @@ example:
 Now `eax` contains the color of the traffic light, represented as either `1`, `2` or `3`, representing `red`, `yellow` and `green` respectively.
 Now we have to make some decision depending on the result.
 If it's green, we'll drive. If it's red, we'll stop, if it's green we'll go and if it's yellow, we'll put it in 2nd gear and go anyway.
-```asm
+```x86asm
 %define RED 1
 %define YELLOW 2
 %define GREEN 3
