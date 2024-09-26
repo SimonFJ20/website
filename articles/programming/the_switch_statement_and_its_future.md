@@ -11,7 +11,7 @@ Now what do I mean by this? Let's remind ourselves what the switch-statement is.
 
 To explain the construct, we have to look a bit at some assembly.
 
-```asm
+```x86asm
 example:
     ; ...
     call traffic_light_color
