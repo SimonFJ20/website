@@ -50,7 +50,7 @@ To amend this issue, we should according to the theory refactor the code, such t
 
 The idea behind guard clauses is, that the happy path, meaning the intended optimal path through the code should be sequential. To achieve this, every time a non-optimal condition is met, eg. an error, the code should break control flow instead of branching.
 
-In C, there is two options for implementing guard clauses using syntactically structured controlflow. *The first option* is by extracting the subject code out into it's own function and then using return statements to break controlflow in the guards. See the following example.
+In C, there is two options for implementing guard clauses using syntactically structured control flow. *The first option* is by extracting the subject code out into it's own function and then using return statements to break control flow in the guards. See the following example.
 
 ```c
 /// @returns 0 if ok
@@ -77,7 +77,7 @@ int read_sensor_value(float* out_value)
 }
 ```
 
-This refactor is conceptually simpler than before, but extracting code into it's own function may have significant drawbacks, especially so in sugar-deficient languages. Before, if `latest_value` was a value local to the original function, we have to decide how to deliver the `value` from the new function back to the caller. This question is may not be trivial and be without a definite answer, certainly with error handling in consideration.
+This refactor is conceptually simpler than before, but extracting code into it's own function may have significant drawbacks, especially so in sugar-deficient languages. Before, if `latest_value` was a value local to the original function, we have to decide how to deliver the `value` from the new function back to the caller. This question may be non-trivial and without a definite answer, certainly with error handling in consideration.
 
 *The second option* is using a loop construct. This could be a do-while-loop with a negative condition or a while- or for-loop with a break as the last statement. With loops, we can use the `break` statement, to break the control flow. See the following example.
 
@@ -115,14 +115,14 @@ If we look at other languages than C, languages without as severe sugar-defiency
             println!("https://en.wikipedia.org/wiki/Immediately_invoked_function_expression");
             break 'try_read_sensor_value;
         }
-        let result = sensor_prepare();
+        let result = sensor.prepare();
         if result != 0 {
             printf("sensor: could not prepare\n");
             break 'try_read_sensor_value;
         }
         let mut value;
-        let result = sensor_read(&mut value);
-        if (result != 0) {
+        let result = sensor.read(&mut value);
+        if result != 0 {
             printf("sensor: could not read\n");
             break 'try_read_sensor_value;
         }
@@ -159,7 +159,7 @@ try_read_sensor_value:
 
 The benefits should be clear. The drawbacks are only the following. 1) This methodology requires of the programmer a certain amount of discipline, as to implement the contruct correctly. 2) Expanding from the previous, the use of the goto statement might instill a certain mindset in future programmers, that this one allow use of goto implies any use of goto is allowed.
 
-*But is the Go To Statement not Considered Harmful?
+*But is the Go To Statement not Considered Harmful?*
 
 This is in reference to the famous article by Edsgar Dijkstra. In the article, the author writes the following.
 
