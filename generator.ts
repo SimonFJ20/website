@@ -93,12 +93,12 @@ function generateArticleIndex(node: IndexNode): string {
         }">${node.title}</a></li>`;
     }
     const childNodes = [
+        ...node.childNodes.filter((node) => !/^\d+/.test(node.title))
+            .toSorted(),
         ...node.childNodes.filter((node) => /^\d+/.test(node.title)).sort((
             a,
             b,
         ) => parseInt(a.title) - parseInt(b.title)),
-        ...node.childNodes.filter((node) => !/^\d+/.test(node.title))
-            .toSorted(),
     ];
     const elements: string[] = [];
     for (const childNode of childNodes) {
