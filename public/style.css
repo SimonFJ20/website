@@ -27,3 +27,8 @@ table td, table th {
     padding: 4px;
 }
 
+code {
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
