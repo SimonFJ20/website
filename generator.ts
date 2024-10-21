@@ -92,8 +92,16 @@ function generateArticleIndex(node: IndexNode): string {
             ensureHtmlFileEnding(node.filePath)
         }">${node.title}</a></li>`;
     }
+    const childNodes = [
+        ...node.childNodes.filter((node) => /^\d+/.test(node.title)).sort((
+            a,
+            b,
+        ) => parseInt(a.title) - parseInt(b.title)),
+        ...node.childNodes.filter((node) => !/^\d+/.test(node.title))
+            .toSorted(),
+    ];
     const elements: string[] = [];
-    for (const childNode of node.childNodes) {
+    for (const childNode of childNodes) {
         elements.push(generateArticleIndex(childNode));
     }
     return `<li>${node.title[0].toUpperCase() + node.title.slice(1)}<ul>${
