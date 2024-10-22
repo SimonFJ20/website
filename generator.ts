@@ -104,9 +104,9 @@ function generateArticleIndex(node: IndexNode): string {
     for (const childNode of childNodes) {
         elements.push(generateArticleIndex(childNode));
     }
-    return `<li>${node.title[0].toUpperCase() + node.title.slice(1)}<ul>${
+    return `<li>${node.title[0].toUpperCase() + node.title.slice(1)}<ul>\n${
         elements.join("\n")
-    }</ul></li>`;
+    }\n</ul></li>`;
 }
 
 function generateRSS(node: IndexNode): string {
