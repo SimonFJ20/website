@@ -86,9 +86,10 @@ for (const filePath of Deno.args) {
     await Deno.writeTextFile("build/" + ensureHtmlFileEnding(filePath), file);
 }
 
-function generateArticleIndex(node: IndexNode): string {
+function generateArticleIndex(node: IndexNode, depth = 2): string {
+    const indent = "    ".repeat(depth);
     if (node.type === "leaf") {
-        return `<li><a href="/${
+        return `${indent}<li><a href="/${
             ensureHtmlFileEnding(node.filePath)
         }">${node.title}</a></li>`;
     }
@@ -102,11 +103,11 @@ function generateArticleIndex(node: IndexNode): string {
     ];
     const elements: string[] = [];
     for (const childNode of childNodes) {
-        elements.push(generateArticleIndex(childNode));
+        elements.push(generateArticleIndex(childNode, depth + 1));
     }
-    return `<li>${node.title[0].toUpperCase() + node.title.slice(1)}<ul>\n${
-        elements.join("\n")
-    }\n</ul></li>`;
+    return `${indent}<li>${
+        node.title[0].toUpperCase() + node.title.slice(1)
+    }<ul>\n${elements.join("\n")}\n${indent}</ul></li>`;
 }
 
 function generateRSS(node: IndexNode): string {
@@ -131,9 +132,11 @@ function generateRSS(node: IndexNode): string {
 console.log("Generating index.html");
 const indexContent = indexTemplate.replaceAll(
     "$article_index",
-    `<ul>${
-        indexRoot.childNodes.map((node) => generateArticleIndex(node)).join("")
-    }</ul>`,
+    `<ul>\n${
+        indexRoot.childNodes.map((node) => generateArticleIndex(node)).join(
+            "\n",
+        )
+    }\n        </ul>`,
 );
 await Deno.writeTextFile("build/index.html", indexContent);
 
