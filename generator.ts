@@ -13,6 +13,7 @@ type IndexNode = {
     type: "branch";
     id: string;
     title: string;
+    filePath: string;
     childNodes: IndexNode[];
 };
 const indexRoot: IndexNode = {
@@ -20,6 +21,7 @@ const indexRoot: IndexNode = {
     childNodes: [],
     id: "index",
     title: "index",
+    filePath: "articles",
 };
 
 async function readContent(filePath: string): Promise<string> {
@@ -67,6 +69,7 @@ for (const filePath of Deno.args) {
                     childNodes: [],
                     id: curr,
                     title: curr[0].toUpperCase() + curr.slice(1),
+                    filePath: `${prev.filePath}/${curr}`,
                 };
                 prev.childNodes.push(node);
                 return node;
@@ -87,6 +90,10 @@ for (const filePath of Deno.args) {
 }
 
 function generateArticleIndex(node: IndexNode, depth = 2): string {
+    if (node.title.startsWith("_")) {
+        console.log(`Skipping ${node.filePath}/*`);
+        return "";
+    }
     const indent = "    ".repeat(depth);
     if (node.type === "leaf") {
         return `${indent}<li><a href="/${
