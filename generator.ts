@@ -1,6 +1,9 @@
 import * as markdown from "https://raw.githubusercontent.com/ubersl0th/markdown/master/mod.ts";
 
 const articleTemplate = await Deno.readTextFile("templates/article.html");
+const compilerArticleTemplate = await Deno.readTextFile(
+    "templates/compiler_article.html",
+);
 const indexTemplate = await Deno.readTextFile("templates/index.html");
 const rssTemplate = await Deno.readTextFile("templates/rss.xml");
 
@@ -15,6 +18,7 @@ type IndexNode = {
     title: string;
     filePath: string;
     childNodes: IndexNode[];
+    indexFileExists?: boolean;
 };
 const indexRoot: IndexNode = {
     type: "branch",
@@ -39,6 +43,30 @@ function ensureHtmlFileEnding(filePath: string): string {
     return filePath;
 }
 
+async function fileExists(path: string): Promise<boolean> {
+    return await Deno.lstat(path)
+        .then((_fileInfo) => true)
+        .catch((_error) => false);
+}
+
+function generateArticleFile(
+    title: string,
+    content: string,
+    description: string,
+    filePath: string,
+): string {
+    if (filePath.startsWith("articles/courses/compiler/")) {
+        return compilerArticleTemplate
+            .replaceAll("$title", title)
+            .replaceAll("$description", description)
+            .replaceAll("$main", content);
+    }
+    return articleTemplate
+        .replaceAll("$title", title)
+        .replaceAll("$description", description)
+        .replaceAll("$main", content);
+}
+
 for (const filePath of Deno.args) {
     console.log(`Generating ${filePath}`);
     const content = await readContent(filePath);
@@ -50,10 +78,7 @@ for (const filePath of Deno.args) {
     const description = descriptionMatch
         ? descriptionMatch[1]
         : content.slice(100);
-    const file = articleTemplate
-        .replaceAll("$title", title)
-        .replaceAll("$description", description)
-        .replaceAll("$main", content);
+    const file = generateArticleFile(title, content, description, filePath);
     const folderPath = filePath.slice(0, filePath.lastIndexOf("/"));
     const indexNode = folderPath
         .split("/")
@@ -79,6 +104,9 @@ for (const filePath of Deno.args) {
     if (indexNode.type === "leaf") {
         throw new Error("file/folder mismatch");
     }
+    indexNode.indexFileExists = await fileExists(
+        `public/${folderPath}/index.html`,
+    );
     indexNode.childNodes.push({
         id: filePath.split("/").at(-1)!,
         type: "leaf",
@@ -111,6 +139,11 @@ function generateArticleIndex(node: IndexNode, depth = 2): string {
     const elements: string[] = [];
     for (const childNode of childNodes) {
         elements.push(generateArticleIndex(childNode, depth + 1));
+    }
+    if (node.indexFileExists) {
+        return `${indent}<li><a href="${node.filePath}/index.html">${
+            node.title[0].toUpperCase() + node.title.slice(1)
+        }</a><ul>\n${elements.join("\n")}\n${indent}</ul></li>`;
     }
     return `${indent}<li>${
         node.title[0].toUpperCase() + node.title.slice(1)
