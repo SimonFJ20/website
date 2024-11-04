@@ -104,9 +104,6 @@ for (const filePath of Deno.args) {
     if (indexNode.type === "leaf") {
         throw new Error("file/folder mismatch");
     }
-    indexNode.indexFileExists = await fileExists(
-        `public/${folderPath}/index.html`,
-    );
     indexNode.childNodes.push({
         id: filePath.split("/").at(-1)!,
         type: "leaf",
@@ -116,6 +113,27 @@ for (const filePath of Deno.args) {
     await Deno.mkdir("build/" + folderPath, { recursive: true });
     await Deno.writeTextFile("build/" + ensureHtmlFileEnding(filePath), file);
 }
+
+async function populateBranchNodesWithIndexPages(
+    node: IndexNode,
+): Promise<void> {
+    if (node.type === "leaf") {
+        return;
+    }
+    const path = `public/${node.filePath}/index.html`;
+    if (await fileExists(path)) {
+        const content = await Deno.readTextFile(path);
+        const match = content.match(/<h1>(.*?)<\/h1>/);
+        const title = match !== null ? match[1] : node.title;
+        node.indexFileExists = true;
+        node.title = title;
+    }
+    await Promise.all(
+        node.childNodes.map((node) => populateBranchNodesWithIndexPages(node)),
+    );
+}
+
+await populateBranchNodesWithIndexPages(indexRoot);
 
 function generateArticleIndex(node: IndexNode, depth = 2): string {
     if (node.title.startsWith("_")) {
