@@ -137,7 +137,7 @@ await populateBranchNodesWithIndexPages(indexRoot);
 
 function generateArticleIndex(node: IndexNode, depth = 2): string {
     if (node.title.startsWith("_")) {
-        console.log(`Skipping ${node.filePath}/*`);
+        console.log(`Skipping ${node.filePath}`);
         return "";
     }
     const indent = "    ".repeat(depth);
