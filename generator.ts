@@ -136,7 +136,10 @@ async function populateBranchNodesWithIndexPages(
 await populateBranchNodesWithIndexPages(indexRoot);
 
 function generateArticleIndex(node: IndexNode, depth = 2): string {
-    if (node.title.startsWith("_") || node.filePath.includes("/_")) {
+    if (
+        node.title.startsWith("_") || node.filePath.includes("/_") ||
+        (node.type === "branch" && node.childNodes.length === 0)
+    ) {
         console.log(`Skipping ${node.filePath}`);
         return "";
     }
