@@ -104,12 +104,15 @@ for (const filePath of Deno.args) {
     if (indexNode.type === "leaf") {
         throw new Error("file/folder mismatch");
     }
-    indexNode.childNodes.push({
-        id: filePath.split("/").at(-1)!,
-        type: "leaf",
-        filePath,
-        title,
-    });
+    const id = filePath.split("/").at(-1)!;
+    if (!id.startsWith("_")) {
+        indexNode.childNodes.push({
+            id,
+            type: "leaf",
+            filePath,
+            title,
+        });
+    }
     await Deno.mkdir("build/" + folderPath, { recursive: true });
     await Deno.writeTextFile("build/" + ensureHtmlFileEnding(filePath), file);
 }
@@ -137,7 +140,7 @@ await populateBranchNodesWithIndexPages(indexRoot);
 
 function generateArticleIndex(node: IndexNode, depth = 2): string {
     if (
-        node.title.startsWith("_") || node.filePath.includes("/_") ||
+        node.id.startsWith("_") ||
         (node.type === "branch" && node.childNodes.length === 0)
     ) {
         console.log(`Skipping ${node.filePath}`);
