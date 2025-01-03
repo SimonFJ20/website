@@ -69,7 +69,7 @@ But hopefully.
 
 What follows is a brief comparison to the book *The Ethnic Cleansing of Palestine* by Ilan Pappe.[3]
 
-I think that the latter (Pappe, L.) is decent to compare with, as the two books in broad strokes tacke the same issues: chronicling and mediating the palestinian story.
+I think that the latter (Pappe, I.) is decent to compare with, as the two books in broad strokes tacke the same issues: chronicling and mediating the palestinian story.
 
 First, the authors are different. Rashid Khalidi is a middle eastern studies academic heavily involved in negotiation and politics, especially US-politics. Khalidi is also, as mentioned above, from a prominent palestinian family, with deep roots in Palestine and many ties to current, but mostly former palestinian political-elite.
 
