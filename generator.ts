@@ -1,5 +1,7 @@
 import * as markdown from "https://raw.githubusercontent.com/ubersl0th/markdown/master/mod.ts";
 
+const copyright = "Copyright © S. F. Jakobsen 2023, 2024, 2025";
+
 const articleTemplate = await Deno.readTextFile("templates/article.html");
 const compilerArticleTemplate = await Deno.readTextFile(
     "templates/compiler_article.html",
@@ -64,7 +66,8 @@ function generateArticleFile(
     return articleTemplate
         .replaceAll("$title", title)
         .replaceAll("$description", description)
-        .replaceAll("$main", content);
+        .replaceAll("$main", content)
+        .replaceAll("$copyright", copyright);
 }
 
 for (const filePath of Deno.args) {
@@ -197,14 +200,16 @@ function generateRSS(node: IndexNode): string {
 }
 
 console.log("Generating index.html");
-const indexContent = indexTemplate.replaceAll(
-    "$article_index",
-    `<ul>\n${
-        indexRoot.childNodes.map((node) => generateArticleIndex(node)).join(
-            "\n",
-        )
-    }\n        </ul>`,
-);
+const indexContent = indexTemplate
+    .replaceAll(
+        "$article_index",
+        `<ul>\n${
+            indexRoot.childNodes
+                .map((node) => generateArticleIndex(node))
+                .join("\n")
+        }\n</ul>`,
+    )
+    .replaceAll("$copyright", copyright);
 await Deno.writeTextFile("build/index.html", indexContent);
 
 console.log("Generating rss.xml");
