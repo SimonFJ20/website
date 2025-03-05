@@ -1,5 +1,5 @@
 
-# Rashid Khalidi: The Hundreds Years' War on Palestine
+# Rashid Khalidi: The Hundred Years' War on Palestine
 
 **The history of the palestinian plight from before the Balfourd declaration to today told as six declarations of war on the palestinian people with both academic and personal perspectives.**[1]
 
