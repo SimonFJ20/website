@@ -69,7 +69,10 @@ function generateArticleFile(
 
 for (const filePath of Deno.args) {
     console.log(`Generating ${filePath}`);
-    const content = await readContent(filePath);
+    const content = await readContent(filePath)
+        .then((content) =>
+            content.replace(/href="(.*?).md"/, 'href="$1.html"')
+        );
     const titleMatch = content.match(/<h1.*?>(.*?)<\/h1>/);
     const title = titleMatch ? titleMatch[1] : filePath;
     const descriptionMatch = content.match(
